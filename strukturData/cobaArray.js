@@ -1,0 +1,11 @@
+const myArray = ['a','b','c'];
+myArray[1] = 'x';
+console.log(myArray);
+myArray.push('Jeki');
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
+delete myArray[1];
+console.log(myArray);
+myArray[1] = "B";
+console.log(myArray);
